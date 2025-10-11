@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    margin: 0.5em;
+    font-family: Arial, sans-serif;
+    font-family: monospace;
+    color: green;
+}
+
+nav {
+    padding: 0.5em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.aligned-right {
+    align-self: right;
+}
+
+a {
+    color: green;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: green;
+}
+
+.intro-box {
+    font-size: 32pt;
+    border: 0.1em;
+    border-radius: 0.2em;
+    border-style: solid;
+    border-color: green;
+    width: 30em;
+    height: 15em;
+    padding: 1em;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.cursor {
+  animation: blink 1.5s step-start infinite;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
