@@ -1,4 +1,3 @@
-// index.js
 const container = document.getElementById("command-field");
 const cursor = document.querySelector(".cursor");
 
@@ -26,7 +25,8 @@ const result = `
   name = "Carl Johann Stempel"
   age = ${calculateAge("2010-09-27")}
   techstack = ["tailwind", "nuxt.js", "python"]
-  currentlyLearning = ["go", "assembly", "C"]
+  currently_learning = ["go", "assembly", "C"]
+  languages = ["german", "english"]
 `;
 
 

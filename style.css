@@ -20,7 +20,8 @@ nav {
 }
 
 .active {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 28pt;
 }
 
 .aligned-right {
@@ -43,8 +44,8 @@ a:hover {
     border-radius: 0.2em;
     border-style: solid;
     border-color: green;
-    width: 30em;
-    height: 15em;
+    width: 35em;
+    height: 20em;
     padding: 1em;
 }
 
@@ -60,4 +61,13 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 90vh;
+}
+
+.title {
+    font-size: 32pt;
+}
+
+.contacts {
+    font-size: 16pt;
+    padding: 1em;
 }
