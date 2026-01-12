@@ -1,19 +1,9 @@
 const container = document.getElementById("command-field");
 const cursor = document.querySelector(".cursor");
 
-const command = "projects";
+const command = "awards";
 const result = `
-  public projects = [
-  &nbsp;&nbsp; this homepage (html, css and js)
-  &nbsp;&nbsp; <a href="https://harbourscapes.de" target="_blank">harbourscapes.de</a> (nuxt.js, tailwind, go gin)
-  &nbsp;&nbsp; <a href="http://fulladder.de:8069/" target="_blank">a highly secure whatsapp clone</a> (nuxt.js, tailwind, python websockets, fastapi) (still in very early development)
-  ]
-  private projects = [
-  &nbsp;&nbsp; HomeAssistant,
-  &nbsp;&nbsp; n8n,
-  &nbsp;&nbsp; <a href="https://weareone-robotics.de/" target="_blank">WeAreOne e.V. First Lego League</a>
-  &nbsp;&nbsp; and many more
-  ]
+<p style="color: red"> STILL IN DEVELOPMENT </p>
 `;
 
 

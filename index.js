@@ -25,7 +25,7 @@ const result = `
   name = "Carl Johann Stempel"
   age = ${calculateAge("2010-09-27")}
   techstack = ["tailwind", "nuxt.js", "python"]
-  currently_learning = ["go", "assembly", "C"]
+  currently_learning = ["go", "rust", "assembly", "C"]
   languages = ["german", "english"]
 `;
 

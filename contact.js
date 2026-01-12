@@ -6,6 +6,7 @@ const result = `
   email = "carljohann@robotik.ag"
   phone = "+49 1575 2733477"
   telegram = "https://t.me/carljohannstempel"
+  discord = "gandalf_279"
 `;
 
 
