@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: orangered;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .boxes-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 10em;
+            height: 10em;
+            border: 5px solid #ff4500;
+            border-radius: 10%;
+            margin: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box svg {
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+        }
+
+        svg {
+            filter: invert(57%) sepia(90%) saturate(6677%) hue-rotate(4deg) brightness(104%) contrast(104%);
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .search-bar {
+            width: 40em;
+            padding: 12px 16px;
+            border: 3px solid #ff4500;
+            border-radius: 8px;
+            background-color: transparent;
+            color: orangered;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-bar::placeholder {
+            color: rgba(255, 69, 0, 0.6);
+        }
+
+        .search-bar:focus {
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="search-container">
+            <form action="https://searx.rhscz.eu/" method="get" style="width: 100%; display: flex; justify-content: center;">
+                <input type="text" name="q" class="search-bar" placeholder="Search..." required>
+            </form>
+        </div>
+        <div class="boxes-container">
+            <a href="https://searx.rhscz.eu/">
+                <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512">
+                        <path
+                            d="M23.707,22.293l-5.969-5.969a10.016,10.016,0,1,0-1.414,1.414l5.969,5.969a1,1,0,0,0,1.414-1.414ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z" />
+                    </svg>
+                </div>
+            </a>
+            <a href="https://element.wirkaufenralfschuhmacher.de">
+                <div class="box">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 10.5H16" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M8 14H13.5" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                        <path
+                            d="M17 3.33782C15.5291 2.48697 13.8214 2 12 2C6.47715 2 2 6.47715 2 12C2 13.5997 2.37562 15.1116 3.04346 16.4525C3.22094 16.8088 3.28001 17.2161 3.17712 17.6006L2.58151 19.8267C2.32295 20.793 3.20701 21.677 4.17335 21.4185L6.39939 20.8229C6.78393 20.72 7.19121 20.7791 7.54753 20.9565C8.88837 21.6244 10.4003 22 12 22C17.5228 22 22 17.5228 22 12C22 10.1786 21.513 8.47087 20.6622 7"
+                            stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </a>
+            <a href="https://www.claude.ai">
+                <div class="box">
+                    <svg width="800px" height="800px" viewBox="0 0 512 512" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>ai</title>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="icon" fill="#000000" transform="translate(64.000000, 64.000000)">
+                                <path
+                                    d="M320,64 L320,320 L64,320 L64,64 L320,64 Z M171.749388,128 L146.817842,128 L99.4840387,256 L121.976629,256 L130.913039,230.977 L187.575039,230.977 L196.319607,256 L220.167172,256 L171.749388,128 Z M260.093778,128 L237.691519,128 L237.691519,256 L260.093778,256 L260.093778,128 Z M159.094727,149.47526 L181.409039,213.333 L137.135039,213.333 L159.094727,149.47526 Z M341.333333,256 L384,256 L384,298.666667 L341.333333,298.666667 L341.333333,256 Z M85.3333333,341.333333 L128,341.333333 L128,384 L85.3333333,384 L85.3333333,341.333333 Z M170.666667,341.333333 L213.333333,341.333333 L213.333333,384 L170.666667,384 L170.666667,341.333333 Z M85.3333333,0 L128,0 L128,42.6666667 L85.3333333,42.6666667 L85.3333333,0 Z M256,341.333333 L298.666667,341.333333 L298.666667,384 L256,384 L256,341.333333 Z M170.666667,0 L213.333333,0 L213.333333,42.6666667 L170.666667,42.6666667 L170.666667,0 Z M256,0 L298.666667,0 L298.666667,42.6666667 L256,42.6666667 L256,0 Z M341.333333,170.666667 L384,170.666667 L384,213.333333 L341.333333,213.333333 L341.333333,170.666667 Z M0,256 L42.6666667,256 L42.6666667,298.666667 L0,298.666667 L0,256 Z M341.333333,85.3333333 L384,85.3333333 L384,128 L341.333333,128 L341.333333,85.3333333 Z M0,170.666667 L42.6666667,170.666667 L42.6666667,213.333333 L0,213.333333 L0,170.666667 Z M0,85.3333333 L42.6666667,85.3333333 L42.6666667,128 L0,128 L0,85.3333333 Z"
+                                    id="Combined-Shape">
+
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </a>
+            <a href="https://docs.google.com">
+                <div class="box">
+                    <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512.001 512.001" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M463.996,126.864L340.192,3.061C338.231,1.101,335.574,0,332.803,0H95.726C67.724,0,44.944,22.782,44.944,50.784v410.434
+			c0,28.001,22.781,50.783,50.783,50.783h320.547c28.002,0,50.783-22.781,50.783-50.783V134.253
+			C467.056,131.482,465.955,128.824,463.996,126.864z M343.255,35.679l88.127,88.126H373.14c-7.984,0-15.49-3.109-21.134-8.753
+			c-5.643-5.643-8.752-13.148-8.751-21.131V35.679z M446.158,461.217c0,16.479-13.406,29.885-29.884,29.885H95.726
+			c-16.479,0-29.885-13.406-29.885-29.885V50.784c0.001-16.479,13.407-29.886,29.885-29.886h226.631v73.021
+			c-0.002,13.565,5.28,26.318,14.871,35.909c9.592,9.592,22.345,14.874,35.911,14.874h73.018V461.217z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M275.092,351.492h-4.678c-5.77,0-10.449,4.678-10.449,10.449s4.679,10.449,10.449,10.449h4.678
+			c5.77,0,10.449-4.678,10.449-10.449S280.862,351.492,275.092,351.492z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M236.61,351.492H135.118c-5.77,0-10.449,4.678-10.449,10.449s4.679,10.449,10.449,10.449H236.61
+			c5.77,0,10.449-4.678,10.449-10.449S242.381,351.492,236.61,351.492z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M376.882,303.747H135.119c-5.77,0-10.449,4.678-10.449,10.449c0,5.771,4.679,10.449,10.449,10.449h241.763
+			c5.77,0,10.449-4.678,10.449-10.449C387.331,308.425,382.652,303.747,376.882,303.747z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M376.882,256H135.119c-5.77,0-10.449,4.678-10.449,10.449c0,5.771,4.679,10.449,10.449,10.449h241.763
+			c5.77,0,10.449-4.678,10.449-10.449C387.331,260.678,382.652,256,376.882,256z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M376.882,208.255H135.119c-5.77,0-10.449,4.678-10.449,10.449c0,5.771,4.679,10.449,10.449,10.449h241.763
+			c5.77,0,10.449-4.678,10.449-10.449S382.652,208.255,376.882,208.255z" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="newtab.js"></script>
+</body>
+
+</html>
